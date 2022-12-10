@@ -56,18 +56,6 @@ for name in names:
     november_withdrawal=0
     december_withdrawal=0
 
-
-    # months_tr=[apr_tr,may_tr,jun_tr,jul_tr,aug_tr,sep_tr,oct_tr,nov_tr]
-    # month_wt=[april_withdrawal,may_withdrawal,june_withdrawal,july_withdrawal,august_withdrawal,september_withdrawal,october_withdrawal,november_withdrawal]
-
-    # for num in range(8):
-    #     for amount in months_tr[num].loc[:,'Withdrawal Amt.']:
-    #         month_wt[num]+=amount
-    #         print(month_wt[num])
-
-
-            
-
     for amount in apr_tr.loc[:,'Withdrawal Amt.']:
 
         april_withdrawal+=amount
